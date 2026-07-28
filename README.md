@@ -21,11 +21,11 @@ El agente fue alimentado e indexado utilizando los siguientes documentos oficial
   
 3. **`Reglamento_Interno_y_Horarios_Supermercado.docx`**: Turnos de trabajo, políticas de puntualidad, tolerancias, vestimenta y beneficios laborales.
   
-  1. **`Manual_de_Politicas_de_Compras_y_Proveedores.pdf`**: Condiciones para alta de nuevos proveedores, tiempos de pago y criterios de selección.
-    5. **`Preguntas_Frecuentes_Programa_Cliente_VIP_Central.txt`**: Reglas del programa de puntos, beneficios, expiración y niveles de membresía.
+4. **`Manual_de_Politicas_de_Compras_y_Proveedores.pdf`**: Condiciones para alta de nuevos proveedores, tiempos de pago y criterios de selección.
+    
+5. **`Preguntas_Frecuentes_Programa_Cliente_VIP_Central.txt`**: Reglas del programa de puntos, beneficios, expiración y niveles de membresía.
 
-```
-  ## 🛠️ Arquitectura y Flujos de Trabajo en n8n
+## 🛠️ Arquitectura y Flujos de Trabajo en n8n
 
 
   La solución utiliza **n8n** como motor principal de orquestación, dividiendo el procesamiento en dos workflows independientes para optimizar rendimiento y costos.
@@ -54,7 +54,7 @@ El agente fue alimentado e indexado utilizando los siguientes documentos oficial
 - **Embeddings:** `OpenAI text-embedding-3-small` (1536 dimensiones) para garantizar máxima precisión semántica y compatibilidad matemática.
 - **Vector Store:** **Qdrant Cloud** (Colección `mercado_central_kb`, Métrica de distancia: *Cosine*).
 
-![](/home/yerry/Documents/Cursos%20&%20Talleres/Alura%20ONELatam/Challenge%20Alura%20Agente/img/workflow_ingesta.png)
+![](img/workflow_ingesta.png)
 
 ---
 
