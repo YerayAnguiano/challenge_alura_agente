@@ -80,7 +80,7 @@ Este flujo actúa como la API backend que recibe las consultas de los usuarios, 
 - **LLM / Modelo de Lenguaje:** `OpenAI gpt-4o-mini` con instrucciones de sistema (*System Prompt*) estrictas para prevenir alucinaciones, rechazar preguntas fuera de contexto y exigir citas directas de fuentes.
 - **Tool RAG:** **Vector Store Tool** conectada a Qdrant en modo recuperación (*Retrieve Documents*), trayendo los $k=4$ fragmentos más relevantes por cada consulta.
 
-![](/home/yerry/Documents/Cursos%20&%20Talleres/Alura%20ONELatam/Challenge%20Alura%20Agente/img/Workflow_RAG.png)
+![](img/Workflow_RAG.png)
 
 ---
 
@@ -96,11 +96,11 @@ La interfaz fue desarrollada en **Python con Streamlit**, priorizando una experi
 
 ### Página principal
 
-![](/home/yerry/Documents/Cursos%20&%20Talleres/Alura%20ONELatam/Challenge%20Alura%20Agente/img/interfaz_1.png)
+![](/img/interfaz_1.png)
 
 ### Pregunta sugerida
 
-![](/home/yerry/Documents/Cursos%20&%20Talleres/Alura%20ONELatam/Challenge%20Alura%20Agente/img/interfaz_2.png)
+![](/img/interfaz_2.png)
 
 ---
 
