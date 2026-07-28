@@ -1,0 +1,45 @@
+{
+  "carpeta": "docs",
+  "archivos": [
+    {
+      "nombre": "inventario_de_supermercado_latam.xlsx",
+      "categoria_dominio": "Operaciones y Stock",
+      "ownership": "Gerencia de Logística",
+      "metadatos": {
+        "categoria": "inventario"
+      } 
+    }
+    {
+      "nombre": "Política de Atención al Cliente y Devoluciones — Mercado Central 24h (México).pdf",
+      "categoria_dominio": "Atención al Cliente",
+      "ownership": "Dirección de Servicio al cliente",
+      "metadatos": {
+        "categoria": "atencion_cliente"
+      } 
+    }
+    {
+      "nombre": "Preguntas Frecuentes (FAQ) — Mercado Central 24h (México).pdf",
+      "categoria_dominio": "General / FAQ",
+      "ownership": "Operaciones & App VIP",
+      "metadatos": {
+        "categoria": "faq"
+      } 
+    }
+    {
+      "nombre": "Reglamento Interno y Procedimientos Operativos — Mercado Central 24h (México).pdf",
+      "categoria_dominio": "Recursos Humanos",
+      "ownership": "Departamento de RH",
+      "metadatos": {
+        "categoria": "rh"
+      } 
+    }
+    {
+      "nombre": "Manual de Proveedores y Política de Compras — Mercado Central 24h (México).pdf",
+      "categoria_dominio": "Compras y Finanzas",
+      "ownership": "Departamento de Compras",
+      "metadatos": {
+        "categoria": "finanzas_compras"
+      } 
+    }
+  ]
+}
