@@ -1,0 +1,1 @@
+Supermercado moderno de operación continua (24/7) que integra la experiencia de tienda física con servicios de delivery y app propia. Su enfoque principal es la eficiencia operativa en la gestión de stock y una fuerte política de atención al cliente, impulsada por su programa de fidelidad "Cliente VIP Central".
